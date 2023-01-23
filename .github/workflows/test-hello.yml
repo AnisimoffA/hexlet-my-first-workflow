@@ -12,5 +12,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: test hello 
+    - name: test hello
+    - uses: actions/checkout@v2
     - run: make say-hello
