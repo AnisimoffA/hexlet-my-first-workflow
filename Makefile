@@ -1,2 +1,2 @@
 say-hello:
-	python3 hello_file.py
+	echo "Hello, World!"
